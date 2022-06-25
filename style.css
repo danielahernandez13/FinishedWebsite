@@ -1,0 +1,99 @@
+html{
+  display: center;
+  align-items: center;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height:100vh;
+  background-image: linear-gradient(#47caf5, #174dba);
+}
+
+  .titulo h1{
+  font-family: Arial Black;
+  font-size: 50px;
+  color: #c36fe2;
+  text-align: center;
+  background-color: black;
+  font-style: italic;
+  font-weight: 800;
+  border: 3px solid #174dba;
+}
+
+h4{
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #c36fe2;
+  text-align: center;
+  background-color: black;
+  font-style: italic;
+  font-weight: 800;
+  border: 3px solid #174dba;
+}
+
+nav{
+  text-align: center;
+  background-color: #174dba;
+  
+}
+nav a{
+  margin-right: 10px;
+  color: white;
+  
+}
+
+nav a:hover{
+  background-color: #0d2391
+  
+}
+  
+h1{ 
+ font-family: Arial Black;
+ text-align: center;
+
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 600px;
+  max-width: 65%;
+  font-size: 15px;
+  margin-bottom:20px
+}
+
+img{
+  height: 100%;
+  width: 100%
+}
+
+.mcontainer{
+  display:flex;
+  width: 90%;
+  border:solid;  
+}
+
+.ccontainer{
+  background-color: #c36fe2;
+  max-width: 500px;
+}
+
+.lcontainer{
+  border: solid;
+  background-color: #c36fe2;
+}
+
+input, textarea {
+  width:400px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+   padding:20px;
+   font-size: 18px;
+} 
+
+.submit {
+  background-color: #dee7ec;
+  color: #889eab;
